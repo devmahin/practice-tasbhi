@@ -34,3 +34,12 @@ let elem = element.nextElementSibling;
 elem.innerText = "I am inner text.";
 elem.style.backgroundColor = "red";
 // elem.style.marginBottom = "20px"
+
+
+// setAttribute() || getAttribute()  || removeAttribute()
+elem.setAttribute("class", " mahin alu")
+elem.removeAttribute("class")
+console.log(elem.getAttribute("class"))
+
+// Creating an element and append
+
