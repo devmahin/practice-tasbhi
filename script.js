@@ -39,7 +39,13 @@ elem.style.backgroundColor = "red";
 // setAttribute() || getAttribute()  || removeAttribute()
 elem.setAttribute("class", " mahin alu")
 elem.removeAttribute("class")
-console.log(elem.getAttribute("class"))
 
 // Creating an element and append
 
+
+
+
+// Add class name  || classList[add(),remove()]
+elem.classList.add("hello")
+elem.classList.remove("hello")
+console.log(elem.getAttribute("class"))
